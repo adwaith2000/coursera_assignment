@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 header #navbar-header{
 	background-color: #DFDFDF !important;
 }
@@ -15,20 +18,28 @@ header #navbar-header{
 	margin-top: 20px;
 }
 
-.subhead{
-	font-size: 1.5em;
-}
 
-
-.row{
-	margin-top: 20px;
-	background-color: #373737;
-	color: #FFFFFF;
-}
 
 @media (max-width: 575px){
 	.row{
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+}
+
+section{
+	height: 700px;
+	margin: 5px;
+	overflow: auto;
+	background-color: #373737;
+	color: #FFFFFF;
+}
+
+#menu{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 2vw;
 }
